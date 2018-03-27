@@ -38,4 +38,8 @@ $(document).ready(function() {
     $("html, body").animate({scrollTop: $(".js-plans").offset().top}, 1000);
   });
 
+  $(".js-nav-icon").click(function(){
+    $(".js-main-nav").slideToggle(200);
+  });
+
 });
